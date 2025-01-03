@@ -1,0 +1,62 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    //start fire task
+body{
+    background-color: black;
+}
+img{
+    width: 100px;
+    position: absolute;
+} 
+    //end fire task
+    */
+
+ /* start carousal task */
+ /* .carousal img{
+    cursor: pointer;
+ } */
+  /* end carousal task */
+  /* star slider-vercel */
+  .layer{
+    bottom: 10px;
+    left: 3%;
+    width: 95%; 
+  }
+  .item{
+    cursor: pointer;
+  }
+  .LightBoxContainer{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LightBox{
+    width: 600px;
+    height: 600px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .close_Tab{
+    right: 5px;
+    top: 3px;
+    cursor: pointer;
+  }
+  .arrows{
+    top: 45%;
+   padding: 10px;
+   cursor: pointer;
+  }
+  /* end slider-vercel */
